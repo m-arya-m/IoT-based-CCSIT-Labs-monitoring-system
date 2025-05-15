@@ -1,7 +1,7 @@
 # IoT-based-CCSIT-Labs-monitoring-system
 
 ## Project Description
-n IoT-based temperature monitoring system can enhance device temperature management in CCSIT labs by utilizing sensors to track temperature in real-time. This system can provide alerts for temperature fluctuations, enabling timely interventions to prevent overheating and ensure optimal operating conditions.
+IoT-based temperature monitoring system can enhance device temperature management in CCSIT labs by utilizing sensors to track temperature in real-time. This system can provide alerts for temperature fluctuations, enabling timely interventions to prevent overheating and ensure optimal operating conditions.
 
 ## Hardware Requirements
 - Temperature
