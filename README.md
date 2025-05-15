@@ -34,7 +34,7 @@ n IoT-based temperature monitoring system can enhance device temperature managem
 ### ERD Representation
 
 ![My stude-Entity-Relationship Diagram]
-(./imge/iot erd)
+(./imge/iot erd.png)
 
 ## To install an IoT-based temperature monitoring system using XAMPP and Visual Studio Code, follow these general steps:
 
