@@ -15,13 +15,13 @@ n IoT-based temperature monitoring system can enhance device temperature managem
 - javascript
 
 ## Tools and techniques
-# Software
+### Software
 - Arduino ide
 - visual studio
 - php
 - blynk
 - postgresSQL
-# Hardware
+### Hardware
 - NODEMCU ESP8266
 - Breadboard
 - DHT11 sensor
