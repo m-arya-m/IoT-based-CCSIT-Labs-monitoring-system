@@ -1,0 +1,172 @@
+  /* Style the header of website */
+header {
+    background-color: #ffe4ca;
+   font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  body {
+    margin: 0;
+  } 
+
+    .left {
+    order: -1; 
+    width:300px; 
+    height: 200px;
+  
+  }
+  
+  .right {
+    order: 1;
+    width:250px; 
+    height:200px;
+    padding: 0px 0px 0px 350px;
+    text-align: right;
+  }
+
+
+/* Style the navigation */
+.nav {
+    background-color: #ffe4ca; 
+    text-align: left; 
+    padding-left: 120px;
+     font-size: 20px;
+  }
+  
+  .nav a {
+    display: inline-block; 
+    color: #000000;
+    padding: 14px 16px;
+    list-style-type: none;
+  }
+  
+
+ /* Style the login page */ 
+  #para1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+  #loginF{
+    margin: 0 30px; 
+    font-size: 30px;
+    background-color:#ffe4ca; 
+    border: 3px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    padding: 30px 70px;
+    text-align: center;
+  }
+  
+ section.loginBtn{
+    
+    margin-bottom:30px ; 
+   text-align: center;
+  }
+
+  #loginIT{
+    margin: 0 30px; 
+    font-size: 30px;
+    background-color:#ffe4ca; 
+    border: 3px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    padding: 30px 70px;
+    text-align: center; 
+}
+
+input:focus{
+    background-color: #ffffff;
+}
+
+button{
+   
+    font-size: 20px;
+    border-width: 20px; 
+    border: 3px solid rgb(83, 83, 83);
+    padding: 10px 30px;
+    margin: 20px;
+    text-align: center;
+}
+ 
+
+
+  
+  section, main {
+    padding: 20px;
+  }
+
+h2{
+    font-size: 40px;
+    margin: 10px 15px 30px 15px;
+}
+
+p{
+font-size: 25px;
+display: inline ;
+}
+
+form{
+   text-align: center; 
+   
+  }
+
+form > :not(button){
+    margin: 15px;
+    font-size: 20px;
+    background-color:#ffe4ca;
+    opacity: 0.6;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+   padding: 20px 150px;
+    text-align: center; 
+
+} 
+
+section.devices{
+    text-align: center;
+}
+
+.list {
+    border-spacing: 40px; 
+  
+  }
+
+.list td{
+    font-size: 30px;
+    background-color:#ffe4ca;
+    border: 3px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    padding: 35px 120px;
+    
+}
+
+.list a{
+    text-decoration: none;
+     color: #000; 
+}
+
+.lab{
+
+    font-size: 25px;
+    background-color:#ffe4ca;
+    border: 3px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    padding: 30px 100px 30px 40px; 
+  
+}
+
+
+.lab td {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+#addDeviceForm, #deleteDeviceForm, #updateDeviceForm, #FMForm, #ITForm {
+  display: none; /* Default state is hidden */
+  transition: display 0.5s ease; /* Smooth transition for the display property */
+}
+
+
